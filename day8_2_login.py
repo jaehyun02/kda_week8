@@ -8,7 +8,7 @@ app.add_middleware(
 
     CORSMiddleware,
 
-    allow_origins=["http://localhost:5173"],  # React 개발 서버만 허용(허용할 출처)
+    allow_origins=["*"],  # React 개발 서버만 허용(허용할 출처)
 
     allow_credentials=True,  #(인증정보 허용, 쿠키, jWT토큰 등등)
 
